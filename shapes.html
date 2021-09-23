@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometric Shapes</title>
+</head>
+<body>
+  <header>
+    <h1>
+      Geometric Shapes
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  </header>
+
+  <section>
+    <h2>Square perimeter and area</h2>
+
+    <form>
+      <label for="squareInput">
+        Write the side size
+      </label>
+      <input id="squareInput" type="number">
+      <button type="button" onclick="calcSquarePerimeter()">Perimeter</button>
+      <button type="button" onclick="calcSquareArea()">Area</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Triangle perimeter and area</h2>
+
+    <form>
+      <label for="triangleInput1">
+        Write the side 1 size
+      </label>
+      <input id="triangleInput1" type="number">
+      <label for="triangleInput2">
+        Write the side 2 size
+      </label>
+      <input id="triangleInput2" type="number">
+      <label for="triangleBaseInput">
+        Write the base size
+      </label>
+      <input id="triangleBaseInput" type="number">
+      <button type="button" onclick="calcTrianglePerimeter()">Perimeter</button>
+    </form>
+  </section>
+
+  <script src="shapes.js"></script>
+</body>
+</html>
